@@ -1,0 +1,29 @@
+{
+  "name": "typo-shaming",
+  "main": "./lib/typo-shaming",
+  "version": "0.0.0",
+  "description": "Creates a panel that lists all of the spelling errors in the active editor",
+  "keywords": [
+    "spell"
+    "check"
+    "panel"
+    "list"
+  ],
+  "activationCommands": {
+    "atom-workspace": "typo-shaming:toggle"
+  },
+  "repository": "https://github.com/lee-dohm/typo-shaming",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.8.0",
+    "etch-stateless": "^1.0.0"
+  },
+  "devDependencies": {
+    "atom-mocha-test-runner": "0.3.0",
+    "chai": "^3.5.0"
+  },
+  "atomTestRunner": "./spec/runner"
+}
